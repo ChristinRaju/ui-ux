@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+<head>
+<body>
+    <h1>My Feedback Form</h1>
+    <form>
+        Name: <input type="text" name="name" placeholder="Enter your name"><br><br>
+        Email: <input type="email" placeholder="Enter your email"><br><br>
+        Password: <input type="password" placeholder="Enter your password"><br><br>
+
+            <br>
+            Please check all the emotions that apply to you
+            <ul>
+                <li>Angry <input type="checkbox" value="angry"><br></li>
+                <li>Sad <input type="checkbox" value="sad"><br></li>
+                <li>Happy <input type="checkbox" value="happy"><br></li>
+                <li>Ambivalent <input type="checkbox" value="ambivalent"><br>
+            </ul>
+
+            <br>
+            How Satisied are you with our service?
+            <ul>
+                <li>Very Satisfied <input type="radio" value="very_satisfied"><br></li>
+                <li>Satisfied <input type="radio" value="satisfied"><br></li>
+                <li>Didnt Care <input type="radio" value="didnt_care"><br></li>
+                <li>Dissatisfied <input type="radio" value="dissatisfied"><br></li>
+                <li>Very Dissatisfied <input type="radio" value="very_dissatisfied"><br></li>
+            </ul>
+            
+            Further Comments: <textarea name="comments" placeholder="Enter your comments"></textarea><br><br>
+
+            Bio Photo: <input type="file" name="bio-photo"><br><br>
+
+            Location Visited: <select name="location">
+                <option value="select">Select</option>
+                <option value="new_york">Delhi</option>
+                <option value="los_angeles">Mumbai</option>
+                <option value="chicago">Kerala</option>
+                <option value="houston">Karnataka</option>
+                <option value="miami">Assam</option>
+            </select>
+
+            <!--after submitting the form, i want it to show a message "Thank you for your feedback" -->
+            <br><br>
+            <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+   
+
+
+
+
